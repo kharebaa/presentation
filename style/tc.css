@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+body header .img {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+body header .img img {
+  width: 118px;
+  height: 15px;
+}
+body header nav {
+  margin-right: 100px;
+  margin-top: 40px;
+}
+body header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header nav ul li a:hover {
+  text-decoration: underline;
+}
+body .dato h1 {
+  margin-top: 100px;
+  margin-left: 40px;
+  font-size: 50px;
+}
+body .conteiner h2 {
+  font-size: 30px;
+}
+body .conteiner p {
+  font-size: 20px;
+}
+body .conteiner {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+body .conteiner .ana .tekla p {
+  margin-top: 20px;
+}
+body .conteiner .tatia .ula {
+  margin-top: 30px;
+}
+body .conteiner .tatia .andria {
+  margin-top: 30px;
+}
+body .conteiner .tatia .toko {
+  margin-top: 20px;
+}
+body .conteiner .tatia .goga {
+  margin-top: 20px;
+}
+body .megrela .deme h2 {
+  margin-top: 30px;
+}
+body .megrela .dachi {
+  margin-top: 24px;
+}
+body .megrela .sofi {
+  margin-top: 23px;
+}
+body .megrela .sofi a {
+  color: rgb(0, 0, 0);
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+body footer .h-9 {
+  margin-left: 100px;
+}
+body footer .ll {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+body footer .ll button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+body footer .ll button:hover {
+  background-color: black;
+  color: white;
+}
+body footer .aa {
+  margin-top: 100px;
+}
+body footer .aa input {
+  border-radius: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+}
+body footer .aa label {
+  position: relative;
+  bottom: 45px;
+  left: 98px;
+}
+body footer .button a {
+  border: none;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  top: 130px;
+  text-decoration: none;
+  color: #333;
+}
+body footer .button a:hover {
+  text-decoration: underline;
+}
+body .pp {
+  position: relative;
+  left: 80%;
+  bottom: 100px;
+}
+body .pp .f {
+  position: relative;
+  bottom: 60px;
+}
+body .pp .g {
+  position: relative;
+  bottom: 20px;
+}
+body .pp .icon {
+  font-size: 24px;
+}
+body .pp .m {
+  position: relative;
+  top: 30px;
+}
+
+.btnn1 {
+  left: 100px;
+}
+
+.btnn2 {
+  left: 120px;
+}
+
+.btnn3 {
+  left: 140px;
+}
+
+.btnn4 {
+  left: 160px;
+}/*# sourceMappingURL=tc.css.map */

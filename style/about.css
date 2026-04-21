@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+body .navbar li a {
+  color: white;
+}
+body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+body header .img-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+body header .img-3 img {
+  width: 118px;
+  height: 15px;
+}
+body header nav {
+  margin-right: 100px;
+  margin-top: 40px;
+}
+body header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header nav ul li a:hover {
+  text-decoration: underline;
+}
+body .div .h5 {
+  font-size: 40px;
+  position: relative;
+  top: 140px;
+  left: 40px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+body .com {
+  margin-top: 230px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+body .com .divo {
+  margin-left: 100px;
+}
+body .com .divo h1 {
+  font-size: 39px;
+}
+body .com .divo p {
+  margin-top: 30px;
+  font-size: 19px;
+}
+body .com .p {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-right: 100px;
+}
+body .com .p p {
+  width: 430px;
+  height: 160px;
+  font-size: 18px;
+  word-spacing: 3px;
+}
+body .img {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .img img {
+  width: 1280px;
+  height: 720px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .nm {
+  background-color: #282828;
+  height: 1300px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 100px;
+  color: white;
+}
+body .nm .h1 {
+  margin-left: 80px;
+}
+body .nm .h1 h1 {
+  font-size: 50px;
+  color: white;
+}
+body .nm .p1 {
+  width: 500px;
+  height: 160px;
+  margin-right: 50px;
+}
+body .nm .p1 .p22 {
+  margin-bottom: 30px;
+}
+body .nm .p1 .p22, body .nm .p1 .p11 {
+  font-size: 20px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  margin-top: 150px;
+}
+body footer .h-9 {
+  margin-left: 100px;
+}
+body footer .ll {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+body footer .ll button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+body footer .ll button:hover {
+  background-color: black;
+  color: white;
+}
+body footer .aa {
+  margin-top: 100px;
+}
+body footer .aa input {
+  border-radius: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+}
+body footer .aa label {
+  position: relative;
+  bottom: 45px;
+  left: 98px;
+}
+body footer .button a {
+  border: none;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  top: 130px;
+  text-decoration: none;
+  color: #333;
+}
+body footer .button a:hover {
+  text-decoration: underline;
+}
+body .pp {
+  position: relative;
+  left: 80%;
+  bottom: 100px;
+}
+body .pp .f {
+  position: relative;
+  bottom: 60px;
+}
+body .pp .g {
+  position: relative;
+  bottom: 20px;
+}
+body .pp .icon {
+  font-size: 24px;
+}
+body .pp .m {
+  position: relative;
+  top: 30px;
+}
+
+.btnn1 {
+  left: 100px;
+}
+
+.btnn2 {
+  left: 120px;
+}
+
+.btnn3 {
+  left: 140px;
+}
+
+.btnn4 {
+  left: 160px;
+}
+
+@media (max-width: 767px) {
+  body header nav ul {
+    display: none;
+  }
+  body .com {
+    border: none;
+  }
+  body .com .divo h1 {
+    width: 200px;
+  }
+  body .com .p {
+    position: relative;
+    top: 40px;
+    right: 200px;
+  }
+  body .img img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body .nm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 500px;
+    height: 700px;
+  }
+  body .nm .h1 h1 {
+    font-size: 20px;
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+  }
+  body .nm .p1 p {
+    font-size: 18px !important;
+    width: 340px;
+    position: relative;
+    left: 80px;
+    bottom: 360px;
+  }
+  body footer {
+    position: relative;
+    bottom: 500px;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 700px;
+  }
+  body footer .h-9 h2 {
+    font-size: 20px;
+    position: relative;
+    right: 70px;
+  }
+  body footer .aa {
+    position: relative;
+    right: 70px;
+  }
+  body footer .ll {
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .ll input {
+    position: relative;
+    right: 240px;
+    top: 30px;
+  }
+  body footer .ll button {
+    width: 190px;
+    position: relative;
+    right: 30px;
+    top: 20px;
+  }
+  body footer .pp {
+    position: relative;
+    top: 120px;
+  }
+  body footer .pp .f {
+    position: relative;
+    right: 400px !important;
+  }
+  body footer .pp .g {
+    position: relative;
+    right: 400px !important;
+  }
+  body footer .pp .icon {
+    position: relative;
+    right: 400px !important;
+  }
+  body footer .pp .m {
+    position: relative;
+    top: 210px;
+    right: 400px;
+  }
+  body footer .button .lol {
+    position: relative;
+    right: 3px;
+  }
+  body footer .button .kok {
+    position: relative;
+    right: 24px;
+  }
+  body footer .button .bob {
+    position: relative;
+    right: 40px;
+  }
+  body footer .button .mom {
+    position: relative;
+    left: 20px;
+  }
+  body footer .button {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 350px;
+    right: 70px;
+  }
+  body footer .button a {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=about.css.map */

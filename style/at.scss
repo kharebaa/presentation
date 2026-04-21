@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    $padding: 12px 25px;
+$border-r: 30px;
+body{
+    overflow-x: hidden;
+font-family: sans-serif;
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    .img{
+        
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 50px;
+
+        img{
+            width: 118px;
+            height: 15px;
+        }
+    }
+
+    nav{
+
+        margin-right: 100px;
+        margin-top: 40px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+.xx{
+    background-color: #282828;
+    margin-top: 100px;
+    height: 400px;
+    .qq{
+ 
+        .s, .l, .k{
+            p{
+                color: white;
+                font-size: 23px;
+                width: 1000px;
+            }
+            
+        }
+        .s{
+            position: relative;
+            top: 36px;
+            line-height: 35px;
+        }
+        .l{
+            margin-top: 70px;
+            line-height: 35px;
+        }
+        .k{
+            margin-top: 50px;
+            line-height: 35px;
+            a{
+                color: white;
+            }
+        }
+    
+    }
+}
+.conteiner{
+    padding-bottom: 100px;
+    border-bottom: 1px solid black;
+    margin-left: 30px;
+    margin-top: 100px;
+    p{
+        font-size: 20px;
+    }
+    .ee{
+        .h1{
+            h1{
+                font-size: 50px;
+            }
+        }
+        .ww{
+            p{
+                margin-top: 30px;
+            }
+        }
+        .jj{
+            p{
+                margin-top: 30px;
+            }
+        }
+    }
+    .mb{
+        .z{
+            h2{
+                margin-top: 30px;
+            }
+        }
+        .rr{
+            margin-top: 24px;
+        }
+    }
+    .bn{
+        .six{
+            h2{
+                margin-top: 30px;
+            }
+        }
+        .g{
+            margin-top: 25px;
+        }
+    }
+    .li{
+        ul{
+            margin-top: 30px;
+            font-size: 20px;
+            list-style: disc;
+            margin-left: 20px;
+        }
+    }
+    .y{
+        .h2{
+            h2{
+                margin-top: 30px;
+            }
+        }
+        .messi{
+            p{
+                margin-top: 30px;
+            }
+        }
+        
+    }
+    .ronaldo{
+        .ney{
+            h2{
+                margin-top: 30px;
+            }
+        }
+        .kubarsi{
+            p{
+                margin-top: 30px;
+            }
+        }
+    }
+    .marcelo{
+        .r9{
+            h2{
+                margin-top: 30px;
+            }
+        }
+        .kvara{
+            p{
+                margin-top: 30px;
+            }
+        }
+    }
+    .ronaldinho{
+        .budu{
+            ul{
+                margin-top: 30px;
+                font-size: 18px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+footer{
+        display: flex;
+        flex-direction: column;
+                
+        margin-top: 150px;
+        .h-9{
+            margin-left: 100px;
+        }
+        .ll{
+            margin-left: 100px;
+            margin-top: 20px;
+            display: flex;
+            
+            button{
+                padding: $padding;
+                border-radius: $border-r;
+                background-color: white;
+                border: 1px solid black;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+        .aa{
+            margin-top: 100px;
+            input{
+                border-radius: 20px;
+                font-size: 30px;
+                border: 1px solid black;
+            }
+            label{
+                position: relative;
+                bottom: 45px;
+                left: 98px;
+
+            }
+        }
+
+        .button{
+            a{
+                border: none;
+                background-color: white;
+                position: relative;
+                font-size: 20px;
+                top: 130px;
+                text-decoration: none;
+                color: #333;
+                &:hover{
+                    text-decoration: underline;
+                }
+
+            }
+
+        }
+    }
+    .pp{
+        position: relative;
+        left: 80%;
+        bottom: 100px;
+
+
+        .f{
+            position: relative;
+            bottom: 60px;
+        }
+        .g{
+            position: relative;
+            bottom: 20px;
+        }
+        .icon{
+            font-size: 24px;
+        }
+        .m{
+            position: relative;
+            top: 30px;
+        }
+    }
+}
+
+
+.btnn1{
+    left: 100px;
+
+}
+.btnn2{
+    left: 120px;
+
+}
+.btnn3{
+    left: 140px;
+}
+.btnn4{
+    left: 160px;
+}

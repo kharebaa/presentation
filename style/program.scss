@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$padding: 12px 25px;
+$border-r: 30px;
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+    header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    .img{
+        
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 50px;
+
+        img{
+            width: 118px;
+            height: 15px;
+        }
+    }
+
+    nav{
+
+        margin-right: 100px;
+        margin-top: 40px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+.co{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid black;
+    .p{
+        p{
+            width: 300px;
+            height: 150px;
+            font-size: 18px;
+            margin-right: 60px;
+        }
+    }
+    .h1{
+        
+        h1{
+            font-size: 70px;
+            margin-left: 60px;
+            width: 700px;
+        }
+    }
+}
+
+        .conteiner{
+           margin-top: 200px;
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 100px;
+            border-bottom: 1px solid black;
+            
+
+            .h4{
+                h1{
+                    position: relative;
+                    bottom: 100px;
+                    height: 10px;
+                    left: 130px;
+                }
+            }
+
+            .card{
+
+                h3{
+                    margin-top: 20px;
+                    position: relative;
+                    right:  100px;
+                }
+                .po{
+                    margin-top: 13px;
+                    position: relative;
+                    right:  100px;
+
+                }
+
+                .pu{
+                    margin-top: 25px;
+                    position: relative;
+                    right: 100px;
+                }
+                .btn{
+                    margin-top: 25px;
+                    width: 100%;
+                    height: 40px;
+                    border-radius: 20px;
+                    background-color: white;
+                    border: 1px solid black;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    right:  100px;
+                     &:hover{
+                        text-decoration: underline;
+                        background-color: black;
+                        color: white;
+                     }
+                }
+            }
+
+            img{
+                width: 413px;
+                height: 414px;
+                object-fit: cover;
+                position: relative;
+                right: 100px;
+
+            }
+        }
+
+
+            footer{
+        display: flex;
+        flex-direction: column;
+             
+        margin-top: 150px;
+        .h-9{
+            margin-left: 100px;
+        }
+        .ll{
+            margin-left: 100px;
+            margin-top: 20px;
+            display: flex;
+            
+            button{
+                padding: $padding;
+                border-radius: $border-r;
+                background-color: white;
+                border: 1px solid black;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+        .aa{
+            margin-top: 100px;
+            input{
+                border-radius: 20px;
+                font-size: 30px;
+                border: 1px solid black;
+            }
+            label{
+                position: relative;
+                bottom: 45px;
+                left: 98px;
+
+            }
+        }
+
+        .button{
+            a{
+                border: none;
+                background-color: white;
+                position: relative;
+                font-size: 20px;
+                top: 130px;
+                text-decoration: none;
+                color: #333;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+
+        }
+    }
+    .pp{
+        position: relative;
+        left: 80%;
+        bottom: 100px;
+
+
+        .f{
+            position: relative;
+            bottom: 60px;
+        }
+        .g{
+            position: relative;
+            bottom: 20px;
+        }
+        .icon{
+            font-size: 24px;
+        }
+        .m{
+            position: relative;
+            top: 30px;
+        }
+    }
+}
+
+.btnn1{
+    left: 100px;
+
+}
+.btnn2{
+    left: 120px;
+
+}
+.btnn3{
+    left: 140px;
+}
+.btnn4{
+    left: 160px;
+}
+
+@media(max-width: 767px){
+    body{
+        header{
+            nav{
+                display: none;
+            }
+        }
+
+        .co{
+        display: flex;
+        flex-direction: column;
+        .h1{
+            h1{
+                font-size: 30px;
+                width: 400px;
+                margin-right: 90px;
+
+            }
+
+        }
+                    .p{
+
+                p{
+                font-size: 14px;
+                padding-bottom: 130px;
+                position: relative;
+                top: 70px;
+                
+                width: 380px;
+                }
+            }
+    }
+
+          .conteiner{
+            margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px ;
+        border-bottom: 1px solid black;
+        .h4{
+            h1{
+                position: relative;
+                right: 30px;
+            }
+        }
+        .card{
+            border: none;
+
+            img{
+                margin-left: 80px;
+                width: 400px !important;
+                height: 400px !important;
+            }
+            h3{
+                margin-left: 80px;
+                width: 200px;
+            
+            }
+            p{
+                margin-left: 80px;
+            }
+            .btn{
+                width: 200px !important;
+                margin-left: 160px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+    footer{
+        height: 100px !important;
+        position: relative;
+        display: flex !important;
+        flex-direction: column !important;
+        .h-9{
+            h2{
+                font-size: 20px;
+                position: relative;
+                right:70px;
+            }
+
+        }
+        .aa{
+            position: relative;
+            right: 70px;
+        }
+        .ll{
+            display: flex;
+            flex-direction: column;
+            input{
+                position: relative;
+                right: 240px;
+                top: 30px;
+            }
+            button{
+                width: 190px;
+                position: relative;
+                right: 30px;
+                top: 20px;
+            }
+        }
+        .pp{
+            position: relative;
+            top: 120px;
+            .f{
+                position: relative;
+                right: 400px !important;
+                bottom: 100px !important;
+            }
+            .g{
+                position: relative;
+                right: 400px !important;
+                bottom: 90px;
+            }
+            .icon{
+                position: relative;
+                right: 400px !important;
+                bottom: 70px;
+            }
+            .m{
+                position: relative;
+                top: 100px;
+                right: 400px;
+                bottom: 90px !important;
+                padding-bottom: 50px;
+            }
+        }
+        .button{
+            position: relative !important;
+            right: 90px !important;
+                            .lol{
+                    position: relative;
+                    right: 3px;
+                }
+                .kok{
+                    position: relative;
+                    right: 24px;
+                }
+                .bob{
+                    position: relative;
+                    right: 40px;
+                }
+                .mom{
+                    position: relative;
+                    left: 20px;
+                }
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 200px;
+            right: 70px;   
+            bottom: 90px !important;       
+
+        }
+
+    }
+    .navbar{
+            position: relative;
+    bottom: 30px;
+    left: 400px;
+    width: 100px;
+        a{
+            color: white;
+        }
+    }
+
+    }
+    
+    
+}

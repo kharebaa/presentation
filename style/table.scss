@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+$padding: 12px 25px;
+$border-r: 30px;
+body{
+    overflow-x: hidden;
+    header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    .img{
+        
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 50px;
+
+        img{
+            width: 118px;
+            height: 15px;
+        }
+    }
+
+    nav{
+
+        margin-right: 100px;
+        margin-top: 40px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+$primary-purple: #7b79d6;
+$light-purple: #b1afff;
+$bg-gray: #f4f4f9;
+$text-color: #333;
+$border-color: #e0e0e0;
+
+.table-wrapper {
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: $bg-gray;
+
+    .comparison-table {
+        width: 100%;
+        max-width: 800px;
+        border-collapse: collapse;
+        font-family: 'Arial', sans-serif;
+        background: white;
+        border-radius: 8px;
+        overflow: hidden; // რომ კუთხეები ლამაზად დამრგვალდეს
+
+        thead {
+            tr {
+                th {
+                    background-color: $light-purple;
+                    padding: 20px;
+                    font-weight: bold;
+                    color: $text-color;
+                    border: 1px solid $border-color;
+
+                    &.highlight {
+                        background-color: $primary-purple;
+                        color: white;
+                    }
+
+                    &:first-child {
+                        text-align: left;
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                &:nth-child(even) {
+                    background-color: #fafafa;
+                }
+
+                td {
+                    padding: 15px 20px;
+                    border: 1px solid $border-color;
+                    text-align: center;
+                    color: lighten($text-color, 20%);
+
+                    &:first-child {
+                        text-align: left;
+                        padding-left: 30px;
+                        color: $text-color;
+                        font-weight: 500;
+                    }
+
+                    .dot {
+                        height: 12px;
+                        width: 12px;
+                        background-color: $primary-purple;
+                        border-radius: 50%;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+        display: flex;
+        flex-direction: column;
+        height: 1200px;        
+        margin-top: 150px;
+        .h-9{
+            margin-left: 100px;
+        }
+        .ll{
+            margin-left: 100px;
+            margin-top: 20px;
+            display: flex;
+            
+            button{
+                padding: $padding;
+                border-radius: $border-r;
+                background-color: white;
+                border: 1px solid black;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+        .aa{
+            margin-top: 100px;
+            input{
+                border-radius: 20px;
+                font-size: 30px;
+                border: 1px solid black;
+            }
+            label{
+                position: relative;
+                bottom: 45px;
+                left: 98px;
+
+            }
+        }
+
+        .button{
+            a{
+                border: none;
+                background-color: white;
+                position: relative;
+                font-size: 20px;
+                top: 130px;
+                text-decoration: none;
+                color: #333;
+                &:hover{
+                    text-decoration: underline;
+                }
+
+            }
+
+        }
+    }
+}
+
+.pp{
+        position: relative;
+        left: 80%;
+        bottom: 100px;
+
+
+        .f{
+            position: relative;
+            bottom: 60px;
+        }
+        .g{
+            position: relative;
+            bottom: 20px;
+        }
+        .icon{
+            font-size: 24px;
+        }
+        .m{
+            position: relative;
+            top: 30px;
+        }
+    }
+
+
+.btnn1{
+    left: 100px;
+
+}
+.btnn2{
+    left: 120px;
+
+}
+.btnn3{
+    left: 140px;
+}
+.btnn4{
+    left: 160px;
+}
+@media(max-width:767px){
+    body{
+        header{
+            nav{
+                display: none;
+            }
+        }
+        .navbar{
+            width: 100px;
+            position: relative;
+            left: 400px;
+            bottom: 40px;
+            a{
+                color: white;
+            }
+        }
+        footer{
+            position: relative;
+            right: 50px;
+            display: flex;
+            flex-direction: column;
+            .ll{
+                display: flex;
+                button{
+                    position: relative;
+                    width: 200px;
+                }
+                input{
+                    position: relative;
+                    right: 235px;
+                    top: 30px;
+                }
+                flex-direction: column;
+            }
+            .button{
+                position: relative;
+                top: 240px;
+                display: flex;
+                flex-direction: column;
+                .lol{
+                    position: relative;
+                    right: 3px;
+                }
+                .kok{
+                    position: relative;
+                    right: 24px;
+                }
+                .bob{
+                    position: relative;
+                    right: 40px;
+                }
+                .mom{
+                    position: relative;
+                    left: 20px;
+                }
+            }
+            .pp{
+                .f{
+                     position: relative;
+                     top: 50px;
+                     right: 300px;
+                }
+                .g{
+                    position: relative;
+                    top: 80px;
+                    right: 300px;
+                }
+                .icon{
+                    position: relative;
+                    top: 100px;
+                    right: 300px;
+
+                }
+                .m{
+                    position: relative;
+                    top: 350px;
+                    right: 300px;
+                    padding-bottom: 100px;
+                }
+            }
+        }
+    }
+}

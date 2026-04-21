@@ -1,0 +1,743 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Raleway-ThinItalic";
+  src: url("../font/Raleway-ThinItalic.ttf");
+}
+header {
+  transform: translateY(-100%);
+  animation: nika 2s forwards ease-out;
+  animation-delay: 0.3s;
+  opacity: 0;
+  font-family: "Raleway-ThinItalic";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+header .img {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+header .img img {
+  width: 118px;
+  height: 15px;
+}
+header nav {
+  margin-right: 100px;
+  margin-top: 40px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Raleway-ThinItalic";
+}
+body .navbar {
+  display: none;
+}
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+body .h1 {
+  margin-top: 140px;
+  font-size: 40px;
+  font-family: "Source Code Pro";
+  font-weight: 1px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+body .h1 h1 {
+  font-size: 80px;
+  width: 400px;
+  transform: translateY(-100%);
+  opacity: 0;
+  animation: ana 2s forwards ease-out;
+  animation-delay: 0.3s;
+}
+body .h1 .p {
+  padding: 12px 25px;
+  border-radius: 20px;
+  transform: translateY(-100%);
+  animation: nana 2s forwards ease-out;
+  opacity: 0;
+  animation-delay: 0.3;
+  font-size: 20px;
+  margin-right: 60px;
+  position: relative;
+  bottom: 50px;
+  width: 340px;
+}
+body .h1 .p a {
+  margin-top: 30px;
+  position: relative;
+  border-radius: 30px;
+  top: 40px;
+  margin-right: 1000px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+body .h1 .p a:hover {
+  text-decoration: underline;
+}
+body .img1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 100px;
+}
+body .img1 img {
+  width: 1380px;
+  gap: 680px;
+  animation: gio 2s forwards ease-out;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+body .div {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+body .div .p1 {
+  width: 650px;
+  position: relative;
+  top: 370px;
+  right: 200px;
+}
+body .div .p1 .bt1 {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: white;
+  position: relative;
+  top: 40px;
+  margin-right: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+body .div .p1 .bt1:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+body .div .p1 .p2 {
+  font-size: 22px;
+}
+body .div .h1 {
+  position: relative;
+  bottom: 120px;
+  font-family: sans-serif;
+  font-size: 49px;
+  left: 30px;
+}
+body .div .img2 img {
+  width: 470px;
+  height: 600px;
+  position: relative;
+  right: 60px;
+}
+body .con {
+  margin-top: 100px;
+}
+body .con .rame {
+  display: flex;
+  justify-content: space-between;
+}
+body .con h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-left: 80px;
+  width: 600px;
+}
+body .con .pi {
+  width: 380px;
+  font-size: 19px;
+  margin-right: 100px;
+}
+body .con .conteiner {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .con .conteiner .card h3 {
+  margin-top: 20px;
+}
+body .con .conteiner .card .po {
+  margin-top: 13px;
+}
+body .con .conteiner .card .pu {
+  margin-top: 25px;
+}
+body .con .conteiner .card .btn {
+  margin-top: 25px;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+body .con .conteiner .card .btn:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+body .con .conteiner img {
+  width: 413px;
+  height: 414px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .as {
+  margin-top: 100px;
+  background-color: #EAEAEA;
+}
+body .as .h {
+  font-size: 30px;
+  position: relative;
+  top: 90px;
+  left: 40px;
+  font-family: sans-serif;
+}
+body .as .imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 190px;
+}
+body .as .imgs img {
+  background-color: #BFBFBF;
+  width: 300px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .as .imgs {
+  padding-bottom: 100px;
+}
+body .lat {
+  background-color: #282828;
+  padding-bottom: 100px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  height: 700px;
+}
+body .lat .h-1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+body .lat .h-1 h1 {
+  color: white;
+}
+body .lat .ph {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+body .lat .ph img {
+  width: 340px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 200px;
+  filter: brightness(30%);
+}
+body .lat .ps {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+body .lat .ps a {
+  position: relative;
+  bottom: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+body .tes {
+  background-color: #282828;
+}
+body .tes .h-2 {
+  display: flex;
+  margin-left: 100px;
+}
+body .tes .h-2 h1 {
+  color: white;
+  margin-top: 30px;
+}
+body .tes {
+  height: 1000px;
+}
+body .tes .ee {
+  width: 100%;
+  display: flex;
+}
+body .tes .ee .conserv, body .tes .ee .conserv1, body .tes .ee .conserv2 {
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 240px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body .tes .ee .conserv .pb, body .tes .ee .conserv1 .pb, body .tes .ee .conserv2 .pb {
+  position: relative;
+  right: 180px;
+}
+body .tes .ee .conserv .pb p, body .tes .ee .conserv1 .pb p, body .tes .ee .conserv2 .pb p {
+  color: white;
+}
+body .tes .ee .conserv blockquote, body .tes .ee .conserv1 blockquote, body .tes .ee .conserv2 blockquote {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+body .tes .ee .conserv {
+  top: 100px;
+  position: relative;
+  left: 100px;
+}
+body .tes .ee .conserv1 {
+  position: relative;
+  top: 400px;
+}
+body .tes .ee .conserv2 {
+  position: relative;
+  top: 700px;
+  right: 900px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+body footer .h-9 {
+  margin-left: 100px;
+}
+body footer .ll {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+body footer .ll button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+body footer .ll button:hover {
+  background-color: black;
+  color: white;
+}
+body footer .aa {
+  margin-top: 100px;
+}
+body footer .aa input {
+  border-radius: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+}
+body footer .aa label {
+  position: relative;
+  bottom: 45px;
+  left: 98px;
+}
+body footer .button .lol {
+  position: relative;
+  left: 120px;
+}
+body footer .button .kok {
+  position: relative;
+  right: 24px;
+}
+body footer .button .bob {
+  position: relative;
+  right: 40px;
+}
+body footer .button .mom {
+  position: relative;
+  left: 20px;
+}
+body footer .button a {
+  border: none;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  top: 130px;
+  text-decoration: none;
+  color: #333;
+}
+body footer .button a:hover {
+  text-decoration: underline;
+}
+body .pp {
+  position: relative;
+  left: 80%;
+  bottom: 100px;
+}
+body .pp .f {
+  position: relative;
+  bottom: 60px;
+}
+body .pp .g {
+  position: relative;
+  bottom: 20px;
+}
+body .pp .icon {
+  font-size: 24px;
+}
+body .pp .m {
+  position: relative;
+  top: 30px;
+}
+
+.btnn1 {
+  left: 100px;
+}
+
+.lok .lol .btnn1 {
+  left: 120px;
+  position: relative;
+}
+
+.btnn3 {
+  left: 140px;
+}
+
+.btnn4 {
+  left: 160px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    display: inline;
+    width: 80px;
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+  }
+  .navbar li a {
+    color: white !important;
+  }
+  body {
+    display: block;
+    flex-direction: column;
+  }
+  header ul li {
+    display: none;
+  }
+  .h1 {
+    margin: 0 auto;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .h1 h1 {
+    font-size: 50px !important;
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+    text-align: start;
+  }
+  .h1 .p {
+    width: 100%;
+    text-align: start;
+    position: relative;
+    right: 100px;
+  }
+  .img1 img {
+    width: 100%;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .div {
+    display: flex;
+    flex-direction: column;
+  }
+  .div .h1 {
+    font-size: 30px !important;
+    position: relative;
+  }
+  .div .p1 {
+    margin-top: -400px;
+  }
+  .div .p1 .p2 {
+    position: relative;
+    bottom: 10px !important;
+    left: 300px;
+    font-size: 15px !important;
+    width: 300px;
+  }
+  .div .p1 .bt1 {
+    display: inline-block;
+    position: relative;
+    bottom: 660px !important;
+    left: 300px;
+    width: 140px;
+    margin-bottom: 450px;
+  }
+  .div .img2 img {
+    height: 300px !important;
+    position: relative;
+    width: 300px !important;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+    left: 90px;
+  }
+  .con {
+    display: flex;
+    flex-direction: column;
+  }
+  .con .rame h2 {
+    font-size: 20px;
+    width: 700px;
+  }
+  .con .rame .pi {
+    font-size: 10px;
+    padding-bottom: 130px;
+    position: relative;
+    top: 70px;
+    right: 200px;
+    width: 400px;
+  }
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+  }
+  .conteiner .card {
+    border: none;
+  }
+  .conteiner .card img {
+    margin-left: 80px;
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .conteiner .card h3 {
+    margin-left: 80px;
+    width: 200px;
+  }
+  .conteiner .card p {
+    margin-left: 80px;
+  }
+  .conteiner .card .btn {
+    width: 200px !important;
+    margin-left: 160px;
+    padding-bottom: 20px;
+  }
+  .as {
+    display: flex;
+    flex-direction: column;
+  }
+  .as .imgs {
+    display: flex;
+    flex-direction: column;
+  }
+  .as .imgs img {
+    width: 300px !important;
+    margin-left: 100px;
+    height: 300px !important;
+    margin-bottom: 10px !important;
+  }
+  .lat {
+    border-bottom: 1px solid #282828 !important;
+    height: 1000px !important;
+  }
+  .lat .ph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1px !important;
+    margin-left: 100px;
+  }
+  .lat .ps {
+    width: 1000px !important;
+  }
+  .lat .ps .al {
+    position: relative;
+    bottom: 1240px;
+    left: 170px;
+  }
+  .lat .ps .aw {
+    position: relative;
+    bottom: 650px;
+    right: 200px;
+  }
+  .lat .ps .ool {
+    position: relative;
+    right: 580px;
+  }
+  .tes .ee {
+    background-color: #282828 !important;
+    height: 900px !important;
+    margin-top: 900px;
+  }
+  .tes .ee .conserv, .tes .ee .conserv1, .tes .ee .conserv2 {
+    position: relative;
+    top: 1400px !important;
+  }
+  .tes .ee blockquote {
+    color: #ffffff !important;
+  }
+  .tes .ee .conserv {
+    height: 100px !important;
+  }
+  .tes .ee .conserv blockquote {
+    padding-bottom: 1000px !important;
+    bottom: 700px;
+    position: relative;
+    color: #ffffff !important;
+    width: 420px;
+    height: 100px !important;
+    right: 30px;
+  }
+  .tes .ee .conserv1 blockquote {
+    padding-bottom: 1000px;
+    margin-top: 1000px;
+    width: 400px;
+    position: relative;
+    right: 340px;
+    bottom: 1400px;
+    color: #ffffff !important;
+  }
+  .tes .ee .conserv2 {
+    position: relative;
+    left: 740px !important;
+  }
+  .tes .ee .conserv2 blockquote {
+    margin-top: 3000px !important;
+    left: 1000px !important;
+    color: #000000 !important;
+  }
+  .tes .h-2 {
+    position: relative;
+    top: 900px;
+  }
+  footer {
+    height: 100px;
+    position: relative;
+    top: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .pp .f p {
+    position: relative;
+    left: 200px;
+  }
+  footer .h-9 h2 {
+    font-size: 20px;
+    position: relative;
+    right: 70px;
+  }
+  footer .aa {
+    position: relative;
+    right: 70px;
+  }
+  footer .ll {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .ll input {
+    position: relative;
+    right: 240px;
+    top: 30px;
+  }
+  footer .ll button {
+    width: 190px;
+    position: relative;
+    right: 30px;
+    top: 20px;
+  }
+  footer .pp {
+    position: relative;
+    top: 120px;
+  }
+  footer .pp .f {
+    position: relative;
+    right: 400px;
+    bottom: 100px;
+  }
+  footer .pp .g {
+    position: relative;
+    right: 400px;
+    bottom: 90px;
+  }
+  footer .pp .icon {
+    position: relative;
+    right: 400px;
+    bottom: 70px;
+  }
+  footer .pp .m {
+    position: relative;
+    top: 210px;
+    right: 400px;
+    bottom: 90px;
+  }
+  footer .button {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 350px;
+    right: 100px;
+    bottom: 90px;
+  }
+}
+@keyframes ana {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes gio {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes nika {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes nana {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+body header .img {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+body header .img img {
+  width: 118px;
+  height: 15px;
+}
+body header nav {
+  margin-right: 100px;
+  margin-top: 40px;
+}
+body header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header nav ul li a:hover {
+  text-decoration: underline;
+}
+body .co {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+body .co .p p {
+  width: 300px;
+  height: 150px;
+  font-size: 18px;
+  margin-right: 60px;
+}
+body .co .h1 h1 {
+  font-size: 70px;
+  margin-left: 60px;
+  width: 700px;
+}
+body .conteiner {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+body .conteiner .h4 h1 {
+  position: relative;
+  bottom: 100px;
+  height: 10px;
+  left: 130px;
+}
+body .conteiner .card h3 {
+  margin-top: 20px;
+  position: relative;
+  right: 100px;
+}
+body .conteiner .card .po {
+  margin-top: 13px;
+  position: relative;
+  right: 100px;
+}
+body .conteiner .card .pu {
+  margin-top: 25px;
+  position: relative;
+  right: 100px;
+}
+body .conteiner .card .btn {
+  margin-top: 25px;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+  position: relative;
+  right: 100px;
+}
+body .conteiner .card .btn:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+body .conteiner img {
+  width: 413px;
+  height: 414px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  right: 100px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+body footer .h-9 {
+  margin-left: 100px;
+}
+body footer .ll {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+body footer .ll button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+body footer .ll button:hover {
+  background-color: black;
+  color: white;
+}
+body footer .aa {
+  margin-top: 100px;
+}
+body footer .aa input {
+  border-radius: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+}
+body footer .aa label {
+  position: relative;
+  bottom: 45px;
+  left: 98px;
+}
+body footer .button a {
+  border: none;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  top: 130px;
+  text-decoration: none;
+  color: #333;
+}
+body footer .button a:hover {
+  text-decoration: underline;
+}
+body .pp {
+  position: relative;
+  left: 80%;
+  bottom: 100px;
+}
+body .pp .f {
+  position: relative;
+  bottom: 60px;
+}
+body .pp .g {
+  position: relative;
+  bottom: 20px;
+}
+body .pp .icon {
+  font-size: 24px;
+}
+body .pp .m {
+  position: relative;
+  top: 30px;
+}
+
+.btnn1 {
+  left: 100px;
+}
+
+.btnn2 {
+  left: 120px;
+}
+
+.btnn3 {
+  left: 140px;
+}
+
+.btnn4 {
+  left: 160px;
+}
+
+@media (max-width: 767px) {
+  body header nav {
+    display: none;
+  }
+  body .co {
+    display: flex;
+    flex-direction: column;
+  }
+  body .co .h1 h1 {
+    font-size: 30px;
+    width: 400px;
+    margin-right: 90px;
+  }
+  body .co .p p {
+    font-size: 14px;
+    padding-bottom: 130px;
+    position: relative;
+    top: 70px;
+    width: 380px;
+  }
+  body .conteiner {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+  }
+  body .conteiner .h4 h1 {
+    position: relative;
+    right: 30px;
+  }
+  body .conteiner .card {
+    border: none;
+  }
+  body .conteiner .card img {
+    margin-left: 80px;
+    width: 400px !important;
+    height: 400px !important;
+  }
+  body .conteiner .card h3 {
+    margin-left: 80px;
+    width: 200px;
+  }
+  body .conteiner .card p {
+    margin-left: 80px;
+  }
+  body .conteiner .card .btn {
+    width: 200px !important;
+    margin-left: 160px;
+    padding-bottom: 20px;
+  }
+  body footer {
+    height: 100px !important;
+    position: relative;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  body footer .h-9 h2 {
+    font-size: 20px;
+    position: relative;
+    right: 70px;
+  }
+  body footer .aa {
+    position: relative;
+    right: 70px;
+  }
+  body footer .ll {
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .ll input {
+    position: relative;
+    right: 240px;
+    top: 30px;
+  }
+  body footer .ll button {
+    width: 190px;
+    position: relative;
+    right: 30px;
+    top: 20px;
+  }
+  body footer .pp {
+    position: relative;
+    top: 120px;
+  }
+  body footer .pp .f {
+    position: relative;
+    right: 400px !important;
+    bottom: 100px !important;
+  }
+  body footer .pp .g {
+    position: relative;
+    right: 400px !important;
+    bottom: 90px;
+  }
+  body footer .pp .icon {
+    position: relative;
+    right: 400px !important;
+    bottom: 70px;
+  }
+  body footer .pp .m {
+    position: relative;
+    top: 100px;
+    right: 400px;
+    bottom: 90px !important;
+    padding-bottom: 50px;
+  }
+  body footer .button {
+    position: relative !important;
+    right: 90px !important;
+  }
+  body footer .button .lol {
+    position: relative;
+    right: 3px;
+  }
+  body footer .button .kok {
+    position: relative;
+    right: 24px;
+  }
+  body footer .button .bob {
+    position: relative;
+    right: 40px;
+  }
+  body footer .button .mom {
+    position: relative;
+    left: 20px;
+  }
+  body footer .button {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    right: 70px;
+    bottom: 90px !important;
+  }
+  body .navbar {
+    position: relative;
+    bottom: 30px;
+    left: 400px;
+    width: 100px;
+  }
+  body .navbar a {
+    color: white;
+  }
+}/*# sourceMappingURL=program.css.map */
