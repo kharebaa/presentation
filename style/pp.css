@@ -172,6 +172,7 @@ body .pp .m {
     position: relative;
     left: 400px;
     bottom: 40px;
+    background-color: white !important;
   }
   body .navbar a {
     color: white;

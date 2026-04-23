@@ -167,4 +167,81 @@ body .pp .m {
 
 .btnn4 {
   left: 160px;
+}
+
+@media (max-width: 767px) {
+  body footer {
+    position: relative;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .ll {
+    display: flex;
+  }
+  body footer .ll button {
+    position: relative;
+    width: 200px;
+  }
+  body footer .ll input {
+    position: relative;
+    right: 235px;
+    top: 30px;
+  }
+  body footer .ll {
+    flex-direction: column;
+  }
+  body footer .button {
+    position: relative;
+    top: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .button .lol {
+    position: relative;
+    right: 3px;
+  }
+  body footer .button .kok {
+    position: relative;
+    right: 24px;
+  }
+  body footer .button .bob {
+    position: relative;
+    right: 40px;
+  }
+  body footer .button .mom {
+    position: relative;
+    left: 20px;
+  }
+  body footer .pp .f {
+    position: relative;
+    top: 50px;
+    right: 300px;
+  }
+  body footer .pp .g {
+    position: relative;
+    top: 80px;
+    right: 300px;
+  }
+  body footer .pp .icon {
+    position: relative;
+    top: 100px;
+    right: 300px;
+  }
+  body footer .pp .m {
+    position: relative;
+    top: 140px;
+    right: 300px;
+    padding-bottom: 100px;
+  }
+  body .navbar {
+    background-color: white !important;
+    width: 100px;
+    position: relative;
+    left: 400px;
+    bottom: 40px;
+  }
+  header nav {
+    display: none;
+  }
 }/*# sourceMappingURL=tc.css.map */

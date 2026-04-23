@@ -90,6 +90,7 @@ header{
             justify-content: space-evenly;
 
             .card{
+                border: none;
 
                 h3{
                     margin-top: 20px;
@@ -168,6 +169,7 @@ header{
         }
 
         .button{
+            display: flex;
             a{
                 border: none;
                 background-color: white;

@@ -96,6 +96,7 @@ body{
             }
 
             .card{
+                border: none;
 
                 h3{
                     margin-top: 20px;
@@ -185,6 +186,7 @@ body{
         }
 
         .button{
+            display: flex;
             a{
                 border: none;
                 background-color: white;
@@ -303,7 +305,9 @@ body{
             .btn{
                 width: 200px !important;
                 margin-left: 160px;
-                padding-bottom: 20px;
+                padding-bottom: 40px;
+                position: relative;
+                bottom: 20px;
             }
         }
     }
@@ -400,6 +404,7 @@ body{
     bottom: 30px;
     left: 400px;
     width: 100px;
+    background-color: white !important;
         a{
             color: white;
         }

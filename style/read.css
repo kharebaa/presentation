@@ -216,4 +216,7 @@ body .pp .m {
   body footer .button {
     position: relative;
   }
+  body .navbar {
+    background-color: white;
+  }
 }/*# sourceMappingURL=read.css.map */

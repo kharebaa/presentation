@@ -227,7 +227,7 @@ body{
             justify-content: space-evenly;
 
             .card{
-
+                border: none;
                 h3{
                     margin-top: 20px;
                 }
@@ -404,17 +404,19 @@ body{
             }
             .conserv1{
                 position: relative;
-                top: 400px;
+                top: 380px;
             }
             .conserv2{
                 position: relative;
-                top: 700px;
+                top: 670px;
                 right: 900px;
             }
         }
     }
 
     footer{
+       
+        
         display: flex;
         flex-direction: column;
               
@@ -454,24 +456,37 @@ body{
 
             }
         }
+        .ll{
+            input{
+                font-size: 1.4px;
+                height: 18px;
+                margin-top: 17px;
+                
+            }
+        }
 
         .button{
-                .lol{
-                    position: relative;
-                    left: 120px;
-                }
-                .kok{
-                    position: relative;
-                    right: 24px;
-                }
-                .bob{
-                    position: relative;
-                    right: 40px;
-                }
-                .mom{
-                    position: relative;
-                    left: 20px;
-                }
+            
+            
+
+            .kok{
+                position: relative;
+                left: 90px;
+            }
+            .bob{
+                position: relative;
+
+                left: 230px;
+
+            }
+            .mom{
+                position: relative;
+                left: 130px;
+            }
+            .lol{
+                position: relative;
+                left: 230px;
+            }
             a{
                 border: none;
                 background-color: white;
@@ -490,13 +505,14 @@ body{
     }
     .pp{
         position: relative;
-        left: 80%;
+        left: 100%;
         bottom: 100px;
 
 
         .f{
             position: relative;
             bottom: 60px;
+            right: 600px !important;
         }
         .g{
             position: relative;
@@ -855,6 +871,9 @@ body{
             top: 350px;
             right: 100px;   
             bottom: 90px ;         
+        }
+        .navbar{
+            background-color: white !important;
         }
 
     }

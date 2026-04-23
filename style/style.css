@@ -187,6 +187,9 @@ body .con .conteiner {
   display: flex;
   justify-content: space-evenly;
 }
+body .con .conteiner .card {
+  border: none;
+}
 body .con .conteiner .card h3 {
   margin-top: 20px;
 }
@@ -334,11 +337,11 @@ body .tes .ee .conserv {
 }
 body .tes .ee .conserv1 {
   position: relative;
-  top: 400px;
+  top: 380px;
 }
 body .tes .ee .conserv2 {
   position: relative;
-  top: 700px;
+  top: 670px;
   right: 900px;
 }
 body footer {
@@ -378,21 +381,26 @@ body footer .aa label {
   bottom: 45px;
   left: 98px;
 }
-body footer .button .lol {
-  position: relative;
-  left: 120px;
+body footer .ll input {
+  font-size: 1.4px;
+  height: 18px;
+  margin-top: 17px;
 }
 body footer .button .kok {
   position: relative;
-  right: 24px;
+  left: 90px;
 }
 body footer .button .bob {
   position: relative;
-  right: 40px;
+  left: 230px;
 }
 body footer .button .mom {
   position: relative;
-  left: 20px;
+  left: 130px;
+}
+body footer .button .lol {
+  position: relative;
+  left: 230px;
 }
 body footer .button a {
   border: none;
@@ -408,12 +416,13 @@ body footer .button a:hover {
 }
 body .pp {
   position: relative;
-  left: 80%;
+  left: 100%;
   bottom: 100px;
 }
 body .pp .f {
   position: relative;
   bottom: 60px;
+  right: 600px !important;
 }
 body .pp .g {
   position: relative;
@@ -716,6 +725,9 @@ body .pp .m {
     top: 350px;
     right: 100px;
     bottom: 90px;
+  }
+  footer .navbar {
+    background-color: white !important;
   }
 }
 @keyframes ana {

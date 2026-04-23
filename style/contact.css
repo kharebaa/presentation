@@ -123,9 +123,11 @@ body section form button {
 body footer {
   display: flex;
   flex-direction: column;
+  height: 400px;
   position: relative;
   bottom: 400px;
   padding: 100px;
+  right: 100px;
   border-top: 1px solid black;
   margin-top: 150px;
 }
@@ -161,6 +163,9 @@ body footer .aa label {
   bottom: 45px;
   left: 98px;
 }
+body footer .button {
+  display: flex;
+}
 body footer .button a {
   border: none;
   background-color: white;
@@ -175,7 +180,7 @@ body footer .button a:hover {
 }
 body .pp {
   position: relative;
-  left: 80%;
+  left: 95%;
   bottom: 100px;
 }
 body .pp .f {
@@ -321,5 +326,8 @@ body .pp .m {
     top: 350px;
     right: 300px;
     padding-bottom: 100px;
+  }
+  body .navbar {
+    background-color: white !important;
   }
 }/*# sourceMappingURL=contact.css.map */

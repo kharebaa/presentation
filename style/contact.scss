@@ -140,12 +140,15 @@ section{
 }
 
 footer{
+
+
         display: flex;
         flex-direction: column;
-                
+        height: 400px;
         position: relative;
         bottom: 400px;
         padding: 100px;
+        right: 100px;
         border-top: 1px solid black;
         
         margin-top: 150px;
@@ -186,6 +189,7 @@ footer{
         }
 
         .button{
+            display: flex;
             a{
                 border: none;
                 background-color: white;
@@ -203,7 +207,7 @@ footer{
     }
     .pp{
         position: relative;
-        left: 80%;
+        left: 95%;
         bottom: 100px;
 
 
@@ -365,6 +369,9 @@ footer{
                     padding-bottom: 100px;
                 }
             }
+        }
+        .navbar{
+            background-color: white !important;
         }
     }
 }

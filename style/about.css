@@ -162,6 +162,9 @@ body footer .aa label {
   bottom: 45px;
   left: 98px;
 }
+body footer .button {
+  display: flex;
+}
 body footer .button a {
   border: none;
   background-color: white;
@@ -331,5 +334,11 @@ body .pp .m {
   }
   body footer .button a {
     font-size: 18px;
+  }
+  body footer .button a:hover {
+    text-decoration: underline;
+  }
+  body .navbar {
+    background-color: white !important;
   }
 }/*# sourceMappingURL=about.css.map */

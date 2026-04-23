@@ -74,6 +74,9 @@ body .conteiner .h4 h1 {
   height: 10px;
   left: 130px;
 }
+body .conteiner .card {
+  border: none;
+}
 body .conteiner .card h3 {
   margin-top: 20px;
   position: relative;
@@ -149,6 +152,9 @@ body footer .aa label {
   position: relative;
   bottom: 45px;
   left: 98px;
+}
+body footer .button {
+  display: flex;
 }
 body footer .button a {
   border: none;
@@ -248,7 +254,9 @@ body .pp .m {
   body .conteiner .card .btn {
     width: 200px !important;
     margin-left: 160px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    bottom: 20px;
   }
   body footer {
     height: 100px !important;
@@ -340,6 +348,7 @@ body .pp .m {
     bottom: 30px;
     left: 400px;
     width: 100px;
+    background-color: white !important;
   }
   body .navbar a {
     color: white;

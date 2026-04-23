@@ -203,3 +203,85 @@ footer{
 .btnn4{
     left: 160px;
 }
+
+@media(max-width:767px){
+    body{
+                footer{
+            position: relative;
+            right: 50px;
+            display: flex;
+            flex-direction: column;
+            .ll{
+                display: flex;
+                button{
+                    position: relative;
+                    width: 200px;
+                }
+                input{
+                    position: relative;
+                    right: 235px;
+                    top: 30px;
+                }
+                flex-direction: column;
+            }
+            .button{
+                position: relative;
+                top: 320px;
+                display: flex;
+                flex-direction: column;
+                .lol{
+                    position: relative;
+                    right: 3px;
+                }
+                .kok{
+                    position: relative;
+                    right: 24px;
+                }
+                .bob{
+                    position: relative;
+                    right: 40px;
+                }
+                .mom{
+                    position: relative;
+                    left: 20px;
+                }
+            }
+            .pp{
+                .f{
+                     position: relative;
+                     top: 50px;
+                     right: 300px;
+                }
+                .g{
+                    position: relative;
+                    top: 80px;
+                    right: 300px;
+                }
+                .icon{
+                    position: relative;
+                    top: 100px;
+                    right: 300px;
+
+                }
+                .m{
+                    position: relative;
+                    top: 140px;
+                    right: 300px;
+                    padding-bottom: 100px;
+                }
+            }
+        }
+        .navbar{
+            background-color: white !important;
+            width: 100px;
+            position: relative;
+            left: 400px;
+            bottom: 40px;
+        }
+    }
+    header{
+        nav{
+            display: none;
+        }
+    }
+    }

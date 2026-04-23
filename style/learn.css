@@ -73,6 +73,9 @@ body .con .conteiner {
   display: flex;
   justify-content: space-evenly;
 }
+body .con .conteiner .card {
+  border: none;
+}
 body .con .conteiner .card h3 {
   margin-top: 20px;
 }
@@ -138,6 +141,9 @@ body footer .aa label {
   position: relative;
   bottom: 45px;
   left: 98px;
+}
+body footer .button {
+  display: flex;
 }
 body footer .button a {
   border: none;

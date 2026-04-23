@@ -187,6 +187,7 @@ body{
         }
 
         .button{
+            display: flex;
             a{
                 border: none;
                 background-color: white;
@@ -350,6 +351,7 @@ body{
             }
         }
         .button{
+
                             .lol{
                     position: relative;
                     right: 3px;
@@ -374,9 +376,17 @@ body{
             right: 70px; 
             a{
                 font-size: 18px;
+
+                &:hover{
+                    text-decoration: underline;
+                }
             }           
         }
 
     }
+    .navbar{
+        background-color:  white !important;
+    }
+    
     }
 }
