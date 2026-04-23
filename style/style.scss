@@ -467,7 +467,10 @@ body{
 
         .button{
             
-            
+            display: flex;
+            gap: 20px;
+            position: relative;
+            right: 150px;
 
             .kok{
                 position: relative;
@@ -505,14 +508,14 @@ body{
     }
     .pp{
         position: relative;
-        left: 100%;
+        left: 80%;
         bottom: 100px;
 
 
         .f{
             position: relative;
-            bottom: 60px;
-            right: 600px !important;
+            bottom: 20px;
+            
         }
         .g{
             position: relative;
