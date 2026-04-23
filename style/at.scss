@@ -283,3 +283,126 @@ footer{
 .btnn4{
     left: 160px;
 }
+
+@media(max-width:767px){
+    body{
+        header{
+            nav{
+                display: none;
+            }
+        }
+
+                    footer{
+        height: 100px !important;
+        position: relative;
+        display: flex !important;
+        flex-direction: column !important;
+        .h-9{
+            h2{
+                font-size: 20px;
+                position: relative;
+                right:70px;
+            }
+
+        }
+        .aa{
+            position: relative;
+            right: 70px;
+        }
+        .ll{
+            display: flex;
+            flex-direction: column;
+            input{
+                position: relative;
+                right: 240px;
+                top: 30px;
+            }
+            button{
+                width: 190px;
+                position: relative;
+                right: 30px;
+                top: 20px;
+            }
+        }
+        .pp{
+            position: relative;
+            top: 120px;
+            .f{
+                position: relative;
+                right: 400px !important;
+                bottom: 100px !important;
+            }
+            .g{
+                position: relative;
+                right: 400px !important;
+                bottom: 90px;
+            }
+            .icon{
+                position: relative;
+                right: 400px !important;
+                bottom: 70px;
+            }
+            .m{
+                position: relative;
+                top: 100px;
+                right: 400px;
+                bottom: 90px !important;
+                padding-bottom: 50px;
+            }
+        }
+        .button{
+            position: relative !important;
+            right: 90px !important;
+            top: 270px !important;
+                            .lol{
+                    position: relative;
+                    right: 3px;
+                }
+                .kok{
+                    position: relative;
+                    right: 24px;
+                }
+                .bob{
+                    position: relative;
+                    right: 40px;
+                }
+                .mom{
+                    position: relative;
+                    left: 20px;
+                }
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 200px;
+            right: 70px;   
+            bottom: 90px !important;       
+
+        }
+
+    }
+    .navbar{
+            position: relative;
+    bottom: 30px;
+    left: 400px;
+    width: 100px;
+    background-color: white !important;
+        a{
+            color: white;
+        }
+    }
+    .xx{
+        
+
+        .qq{
+            .s, .l, .k{
+                p{
+                    font-size: 15px;
+                    width: 480px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    }
+}

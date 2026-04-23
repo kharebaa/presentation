@@ -211,4 +211,111 @@ body .pp .m {
 
 .btnn4 {
   left: 160px;
+}
+
+@media (max-width: 767px) {
+  body header nav {
+    display: none;
+  }
+  body footer {
+    height: 100px !important;
+    position: relative;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  body footer .h-9 h2 {
+    font-size: 20px;
+    position: relative;
+    right: 70px;
+  }
+  body footer .aa {
+    position: relative;
+    right: 70px;
+  }
+  body footer .ll {
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .ll input {
+    position: relative;
+    right: 240px;
+    top: 30px;
+  }
+  body footer .ll button {
+    width: 190px;
+    position: relative;
+    right: 30px;
+    top: 20px;
+  }
+  body footer .pp {
+    position: relative;
+    top: 120px;
+  }
+  body footer .pp .f {
+    position: relative;
+    right: 400px !important;
+    bottom: 100px !important;
+  }
+  body footer .pp .g {
+    position: relative;
+    right: 400px !important;
+    bottom: 90px;
+  }
+  body footer .pp .icon {
+    position: relative;
+    right: 400px !important;
+    bottom: 70px;
+  }
+  body footer .pp .m {
+    position: relative;
+    top: 100px;
+    right: 400px;
+    bottom: 90px !important;
+    padding-bottom: 50px;
+  }
+  body footer .button {
+    position: relative !important;
+    right: 90px !important;
+    top: 270px !important;
+  }
+  body footer .button .lol {
+    position: relative;
+    right: 3px;
+  }
+  body footer .button .kok {
+    position: relative;
+    right: 24px;
+  }
+  body footer .button .bob {
+    position: relative;
+    right: 40px;
+  }
+  body footer .button .mom {
+    position: relative;
+    left: 20px;
+  }
+  body footer .button {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    right: 70px;
+    bottom: 90px !important;
+  }
+  body .navbar {
+    position: relative;
+    bottom: 30px;
+    left: 400px;
+    width: 100px;
+    background-color: white !important;
+  }
+  body .navbar a {
+    color: white;
+  }
+  body .xx .qq .s p, body .xx .qq .l p, body .xx .qq .k p {
+    font-size: 15px;
+    width: 480px;
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=at.css.map */
