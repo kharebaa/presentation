@@ -12,6 +12,10 @@ body .navbar li a {
   color: white;
 }
 body header {
+  animation: lal 2s forwards ease-out;
+  transform: translateY(-100px);
+  animation-delay: 0.4s;
+  opacity: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,8 +56,16 @@ body .div .h5 {
   left: 40px;
   padding-bottom: 100px;
   border-bottom: 1px solid black;
+  animation: gig 2s forwards ease-out;
+  transform: translateX(-100px);
+  opacity: 0;
+  animation-delay: 0.4s;
 }
 body .com {
+  animation: gig 2s forwards ease-out;
+  transform: translateX(-100px);
+  animation-delay: 0.4s;
+  opacity: 0;
   margin-top: 230px;
   display: flex;
   align-items: start;
@@ -340,5 +352,17 @@ body .pp .m {
   }
   body .navbar {
     background-color: white !important;
+  }
+}
+@keyframes lal {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes gig {
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }/*# sourceMappingURL=about.css.map */

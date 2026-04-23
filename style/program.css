@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 body header {
+  animation: dad 2s forwards ease-out;
+  transform: translateY(-100px);
+  opacity: 0;
+  animation-delay: 0.4s;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,6 +53,10 @@ body .co {
   margin-top: 100px;
   padding-bottom: 100px;
   border-bottom: 1px solid black;
+  animation: ere 2s forwards ease-out;
+  transform: translateX(-100px);
+  opacity: 0;
+  animation-delay: 0.4s;
 }
 body .co .p p {
   width: 300px;
@@ -62,6 +70,10 @@ body .co .h1 h1 {
   width: 700px;
 }
 body .conteiner {
+  animation: wew 2s forwards ease-out;
+  opacity: 0;
+  transform: translateY(100px);
+  animation-delay: 0.4s;
   margin-top: 200px;
   display: flex;
   justify-content: space-evenly;
@@ -352,5 +364,23 @@ body .pp .m {
   }
   body .navbar a {
     color: white;
+  }
+}
+@keyframes dad {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes ere {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes wew {
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }/*# sourceMappingURL=program.css.map */
