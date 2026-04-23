@@ -801,19 +801,12 @@ body{
     }
 
     footer{
-        height: 100px ;
+        height: 50px;
         position: relative;
         top: 800px;
         display: flex ;
         flex-direction: column ;
-        .pp{
-            .f{
-                p{
-                    position: relative;
-                    left: 200px;
-                }
-            }
-        }
+ 
         .h-9{
             h2{
                 font-size: 20px;
@@ -872,8 +865,7 @@ body{
             flex-direction: column;
             position: relative;
             top: 350px;
-            right: 100px;   
-            bottom: 90px ;         
+            bottom: 90px;         
         }
         .navbar{
             background-color: white !important;
