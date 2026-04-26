@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    height:400px !important;
+}
+header{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding-bottom: 40px;
+    height: 100px;
+}
+.img img{
+
+    width: 300px;
+}
+header button{
+    justify-content: end;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 350px;
+    border: 1px solid rgb(55, 54, 53);
+    transition: all 0.3s ease;
+}
+header button:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+
+}
+.a1{
+    margin-left: 760px;
+
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(50, minmax(40px, auto));
+    margin-top: 30px;
+}
+.img2{
+    width: 480px;
+    height: 290px;
+    border-radius: 13px 13px 0 0;
+    
+}
+.img1{
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+}
+.div1{
+    border: 1px solid rgb(75, 68, 68);
+    border-radius: 13px;
+    grid-column: 1/13.5;
+    margin-left: 10px;
+    background-color: #F4F4F4;
+    grid-column: 1/2 ;
+    width: 485px;
+}
+.div1 h1{
+    font-size: 39px;
+    margin-left: 4px;
+    color: rgb(0, 0, 0);
+}
+.div2{
+    width: 490px;
+    height: 340px;
+    border: 1px solid #5C5C5C;
+    grid-column: 4/5;
+    border-radius: 13px;
+    background-color: #F4F4F4;
+    /* position: relative;
+    right: 70px; */
+}
+.h2{
+    border-bottom: 1px solid  #5C5C5C;
+    color: #5C5C5C;
+    margin-left: 4px;
+}
+.div2 p{
+    margin: 13px;
+    font-size: 18px;
+}
+.div2 a{
+    margin: 13px;
+    text-decoration: none;
+    padding-right: 260px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 350px 10px 0 ;
+    background-color: #363636;
+    color: white;
+    top: 20px;
+    position: relative;
+
+}
+.div3{
+    width: 188px;
+    height: 181px;
+    grid-column: 7/8;
+    grid-row: 1/2;
+    border-radius: 7px;
+    /* position: relative;
+    right: 50px; */
+
+}
+.img3{
+    width: 228px;
+    height: 221px;
+    border-radius: 7px;
+    
+
+}
+.p1{
+    position: relative;
+    bottom: 47px;
+    color: white;
+    margin-left: 20px;
+}
+.div4{
+    grid-column: 29/30;
+    grid-row: 1/2;
+    border: 1px solid #5C5C5C ;
+    height: 221px;
+    border-radius: 10px;
+    width: 228px;
+    background-color: #F4F4F4;
+}
+.div4 h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    height: 169px;
+    
+}
+.div4 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #5C5C5C;
+    margin-left: 13px;
+    padding: 8px 107px 8px 12px;
+    border-radius: 15px;
+}
+.div5{
+    grid-row: 3/4;
+    grid-column: 1/13.5;
+    border: 1px solid #5C5C5C ;
+        width: 480px;
+    height: 390px;
+    border-radius: 17px;
+    margin-left: 10px;
+    background-color: #F4F4F4  ;
+    
+}
+.div5 p{
+    border: 1px solid #5C5C5C;
+    border-radius: 24px;
+    width: 140px;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.bt1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bt2{
+    position: relative;
+    left: 200px ;
+    bottom: 27px;
+}
+.bt3{
+    margin-left:30px ;
+}
+.bt4{
+    position: relative;
+    left: 180px;
+    bottom: 23px ;
+}
+.bt5{
+    position: relative;
+    left: 330px;
+    bottom: 47px;
+}
+.bt6{
+    margin-left: 30px;
+}
+.bt7{
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+.bt8{
+    margin-left: 30px;
+}
+.bt9{
+    position: relative;
+    left: 200px;
+    bottom: 23px;
+}
+.div6{
+    grid-row: 4/5;
+    position: relative;
+    left: 520px;
+    bottom: 540px;
+}
+.img-1{
+    width: 490px;
+    height: 430px;
+    border-radius: 20px;
+}
+.img-2{
+    position: relative;
+    bottom: 300px;
+}
+.div7{
+    grid-column: 1/2;
+    grid-row: 20/21;
+    position: relative;
+    left: 1030px;
+    bottom: 1900px;
+    border: 1px solid #5C5C5C;
+    border-radius: 20px;
+    width: 520px;
+    height: 450px;
+    
+
+}
+.div7 img{
+    object-fit: cover;
+    width: 520px;
+}
+.img-3{
+    width: 420px;
+    height: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+i{
+    font-size: 30px;
+    text-align: center;
+
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border: 1px solid #5C5C5C;
+    background-color: #F4F4F4;
+    width: 450px;
+    border-radius: 10px;
+    height: 50px;
+    align-items: center;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+bottom: 2700px;
+position: relative;
+padding-top: 100px;
+border-top: 1px solid black;
+}
+body footer .h-9 {
+  margin-left: 100px;
+}
+body footer .ll {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+body footer .ll button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+body footer .ll button:hover {
+  background-color: black;
+  color: white;
+}
+body footer .aa {
+  margin-top: 100px;
+}
+body footer .aa input {
+  border-radius: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+}
+body footer .aa label {
+  position: relative;
+  bottom: 45px;
+  left: 98px;
+}
+body footer .button {
+  display: flex;
+}
+body footer .button a {
+  border: none;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  top: 130px;
+  text-decoration: none;
+  color: #333;
+}
+body footer .button a:hover {
+  text-decoration: underline;
+}
+body .pp {
+  position: relative;
+  left: 80%;
+  bottom: 100px;
+}
+body .pp .f {
+  position: relative;
+  bottom: 60px;
+}
+body .pp .g {
+  position: relative;
+  bottom: 20px;
+}
+body .pp .icon {
+  font-size: 24px;
+}
+body .pp .m {
+  position: relative;
+  top: 30px;
+}
+
+.btnn1 {
+  left: 100px;
+}
+
+.lol .btnn2 {
+  position: relative;
+  left: 120px;
+}
+
+.btnn3 {
+  left: 140px;
+}
+
+.btnn4 {
+  left: 160px;
+}
+@media (max-width:767px){
+    body footer {
+    position: relative;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .ll {
+    display: flex;
+  }
+  body footer .ll button {
+    position: relative;
+    width: 200px;
+  }
+  body footer .ll input {
+    position: relative;
+    right: 235px;
+    top: 30px;
+  }
+  body footer .ll {
+    flex-direction: column;
+  }
+  body footer .button {
+    position: relative;
+    top: 240px;
+    display: flex;
+    flex-direction: column;
+  }
+  body footer .button .lol {
+    position: relative;
+    right: 3px;
+  }
+  body footer .button .kok {
+    position: relative;
+    right: 24px;
+  }
+  body footer .button .bob {
+    position: relative;
+    right: 40px;
+  }
+  body footer .button .mom {
+    position: relative;
+    left: 20px;
+  }
+  body footer .pp .f {
+    position: relative;
+    top: 50px;
+    right: 300px;
+  }
+  body footer .pp .g {
+    position: relative;
+    top: 80px;
+    right: 300px;
+  }
+  body footer .pp .icon {
+    position: relative;
+    top: 100px;
+    right: 300px;
+  }
+  body footer .pp .m {
+    position: relative;
+    top: 350px;
+    right: 300px;
+    padding-bottom: 100px;
+  }
+  .navbar {
+    position: relative;
+    bottom: 30px;
+    left: 400px;
+    width: 100px;
+    background-color: white !important;
+  }
+  .navbar a {
+    color: white;
+  }
+}
