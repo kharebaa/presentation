@@ -463,4 +463,7 @@ body header nav ul li a:hover {
   .navbar a {
     color: white;
   }
+  header nav{
+    display: none;
+  }
 }
