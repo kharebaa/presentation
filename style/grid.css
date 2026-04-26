@@ -426,7 +426,7 @@ body header nav ul li a:hover {
   }
   body footer .button .bob {
     position: relative;
-    right: 40px;
+   left: 120px;
   }
   body footer .button .mom {
     position: relative;
@@ -442,7 +442,7 @@ body header nav ul li a:hover {
     top: 80px;
     right: 300px;
   }
-  body footer .pp .icon {
+  body footer .pp .icons {
     position: relative;
     top: 100px;
     right: 300px;
@@ -455,7 +455,7 @@ body header nav ul li a:hover {
   }
   .navbar {
     position: relative;
-    bottom: 30px;
+    bottom: 80px;
     left: 400px;
     width: 100px;
     background-color: white !important;
