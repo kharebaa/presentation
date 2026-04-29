@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #FEFEF8;
+}
 body header {
   display: flex;
   align-items: center;
@@ -77,4 +80,368 @@ body .div1 .h1 p {
   font-size: 30px;
   text-align: center;
   width: 580px;
+}
+body .gg {
+  overflow-x: hidden;
+  margin: 0 20px 0 20px;
+  border-radius: 100px;
+  height: 100px;
+  background-color: #46001C;
+}
+body .gg .animation {
+  animation: ana 160s linear infinite;
+  white-space: nowrap;
+  justify-content: center;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 20px;
+  color: white;
+  margin-top: 20px;
+}
+body .gg .animation P {
+  font-size: 35px;
+  margin-top: 10px;
+}
+body .gg .animation i {
+  margin-top: 20px;
+}
+body .conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #46001C;
+  width: 90%;
+  margin-left: 100px;
+  position: relative;
+  top: 100px;
+  border-radius: 50px;
+  height: 800px;
+  color: white;
+}
+body .conteiner .h-1 h1 {
+  position: relative;
+  font-size: 120px;
+  text-align: center;
+}
+body .conteiner .imgg {
+  background-color: white;
+  border-radius: 40px;
+  transform: rotate(4deg);
+}
+body .conteiner .imgg img {
+  position: relative;
+  width: 250px;
+  border-radius: 40px;
+  padding: 10px;
+}
+body .conteiner .ic i {
+  font-size: 60px;
+  position: relative;
+  bottom: 260px;
+  left: 100px;
+  color: #99CFFE;
+}
+body .conteiner .ppp p {
+  font-size: 30px;
+  width: 700px;
+  text-align: center;
+}
+body .jj .h-2 h1 {
+  position: relative;
+  top: 180px;
+  font-size: 120px;
+  left: 100px;
+  width: 1200px;
+  color: #46001C;
+}
+body .jj .p2, body .jj .p3 {
+  position: relative;
+  top: 200px;
+  left: 100px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  width: 900px;
+  color: #46001C;
+}
+body .img-2 img {
+  position: relative;
+  top: 250px;
+  width: 90%;
+  display: flex;
+  margin-left: 70px;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .nini {
+  display: flex;
+}
+body .nini div {
+  width: 170px;
+  height: 170px;
+  background-color: #46001C;
+  border-radius: 50%;
+  position: relative;
+  top: 300px;
+}
+body .nb {
+  overflow-x: hidden;
+  background-color: #46001C;
+  height: 1900px;
+  width: 100%;
+  position: relative;
+  top: 160px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .nb .hj {
+  position: relative;
+  left: 450px;
+  bottom: 140px;
+  font-size: 60px;
+}
+body .nb .lok {
+  font-size: 23px;
+  width: 570px;
+  text-align: center;
+  left: 530px;
+  position: relative;
+}
+body .nb .cont {
+  display: flex;
+  gap: 50px;
+}
+body .nb .cont .card .imj img {
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 12px;
+  background-color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .nb .cont .card .nmari, body .nb .cont .card .taso {
+  position: relative;
+  left: 40px;
+}
+body footer {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  top: 120px;
+  position: relative;
+  bottom: 400px;
+  padding: 100px;
+  right: 100px;
+  border-top: 1px solid black;
+  margin-top: 150px;
+}
+body footer .h-9 {
+  margin-left: 100px;
+}
+body footer .ll {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+}
+body footer .ll button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease;
+}
+body footer .ll button:hover {
+  background-color: black;
+  color: white;
+}
+body footer .aa {
+  margin-top: 100px;
+}
+body footer .aa input {
+  border-radius: 20px;
+  font-size: 30px;
+  border: 1px solid black;
+}
+body footer .aa label {
+  position: relative;
+  bottom: 45px;
+  left: 98px;
+}
+body footer .button {
+  display: flex;
+}
+body footer .button a {
+  border: none;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  top: 130px;
+  text-decoration: none;
+  color: #333;
+}
+body footer .button a:hover {
+  text-decoration: underline;
+}
+body .pp {
+  position: relative;
+  left: 95%;
+  bottom: 100px;
+}
+body .pp .f {
+  position: relative;
+  bottom: 60px;
+}
+body .pp .g {
+  position: relative;
+  bottom: 20px;
+}
+body .pp .icon {
+  font-size: 24px;
+}
+body .pp .m {
+  position: relative;
+  top: 30px;
+}
+
+@keyframes ana {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@media (max-width: 767px) {
+  body .div1 .mm .img1 {
+    width: 500px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body .div1 .nn .img2 {
+    width: 150px;
+    position: relative;
+    top: 160px;
+    right: 100px;
+  }
+  body .div1 .h1 {
+    position: relative;
+    right: 600px;
+    top: 200px;
+  }
+  body .div1 .h1 h1 {
+    top: 230px;
+    left: 100px;
+    width: 200px;
+    font-size: 30px;
+  }
+  body .div1 .h1 p {
+    top: 260px;
+    font-size: 19px;
+    width: 400px;
+  }
+  body .gg {
+    position: relative;
+    top: 300px;
+    left: 30px;
+  }
+  body .conteiner {
+    position: relative;
+    top: 260px;
+  }
+  body .conteiner .h-1 h1 {
+    font-size: 30px;
+  }
+  body .conteiner .ppp p {
+    font-size: 20px;
+    width: 400px;
+  }
+  body .jj {
+    top: 100px;
+    position: relative;
+  }
+  body .jj .h-2 h1 {
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    width: 300px;
+  }
+  body .jj .p2 p {
+    font-size: 16px;
+    width: 400px;
+  }
+  body .jj .p3 p {
+    font-size: 16px;
+    width: 400px;
+  }
+  body .img-2 img {
+    position: relative;
+    top: 300px;
+  }
+  body .nb {
+    width: 100%;
+  }
+  body .nb .hj h1 {
+    position: relative;
+    right: 300px;
+  }
+  body .nb .lok p {
+    position: relative;
+    right: 415px;
+    font-size: 18px;
+    width: 400px;
+  }
+  body .nb .cont {
+    flex-direction: column;
+  }
+  body .nb .cont .card .nmari h2 {
+    color: white;
+    margin-left: 50px;
+  }
+  body .nb .cont .card .taso p {
+    color: white;
+    margin-left: 50px;
+  }
+  body .nb .cont .card {
+    background-color: #46001C;
+  }
+  body .nb .cont .card .imj {
+    background-color: #46001C;
+  }
+  body .nb .cont .card .imj img {
+    margin-left: 50px;
+    width: 80%;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body footer {
+    height: 2400px;
+  }
+  body footer .button {
+    position: relative !important;
+    right: 160px !important;
+    top: 230px !important;
+  }
+  body footer .button .lol {
+    position: relative;
+    right: 3px;
+  }
+  body footer .button .kok {
+    position: relative;
+    right: 24px;
+  }
+  body footer .button .bob {
+    position: relative;
+    right: 50px;
+  }
+  body footer .button .mom {
+    position: relative;
+  }
 }/*# sourceMappingURL=page 2.css.map */
